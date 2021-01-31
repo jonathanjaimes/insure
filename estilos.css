@@ -1,0 +1,327 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Karla', sans-serif;
+}
+
+nav {
+	width: 100%;
+	/*background-color: red;*/
+	padding: 20px 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.contTextButt {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.links {
+
+}
+
+.links a {
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: .9em;
+}
+
+.button1 {
+	padding: 10px 20px;
+	border: 1px solid black;
+}
+
+header {
+	width: 100%;
+	padding: 0px 10%;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.textHeader {
+	/*background-color: green;*/
+	width: 40%;
+	padding-top: 200px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.textHeader h1 {
+	font-family: 'DM Serif Display', serif;
+	font-size: 3em;
+	color: white;
+}
+
+.textHeader p {
+	margin-top: 20px;
+	color: white;
+}
+
+.button2 {
+	padding: 10px 20px;
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+header img {
+	width: 60%;
+	position: relative;
+	top: 90px;
+}
+
+.preMain {
+	width: 100%;
+	padding: 190px 10% 30px 10%;
+	/*background-color: yellow;*/
+}
+
+.preMain p {
+	font-family: 'DM Serif Display', serif;
+	font-size: 3em;
+}
+
+main {
+	width: 100%;
+	padding: 50px 10% 50px 10%;
+	/*background-color: pink;*/
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.tarjeta1 {
+	/*background-color: red;*/
+	width: 30%;
+}
+
+.tarjeta1 h2 {
+	margin-top: 20px;
+	font-family: 'DM Serif Display', serif;
+}
+
+.tarjeta1 p {
+	margin-top: 20px;
+}
+
+.tarjeta2 {
+	/*background-color: red;*/
+	width: 30%;
+}
+
+.tarjeta2 h2 {
+	margin-top: 20px;
+	font-family: 'DM Serif Display', serif;
+}
+
+.tarjeta2 p {
+	margin-top: 20px;
+}
+
+.tarjeta3 {
+	/*background-color: red;*/
+	width: 30%;
+}
+
+.tarjeta3 h2 {
+	margin-top: 20px;
+	font-family: 'DM Serif Display', serif;
+}
+
+.tarjeta3 p {
+	margin-top: 20px;
+}
+
+.preFooter {
+	width: 100%;
+	padding: 50px 5% 50px 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.preFooter p {
+	font-family: 'DM Serif Display', serif;
+	font-size: 3em;
+	width: 40%;
+	/*background-color: green;*/
+	color: white;
+}
+
+.button3 {
+	padding: 10px 20px;
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+.envolPreFooter {
+	width: 80%;
+	background-color: black;
+	margin: auto;
+	margin-bottom: 100px;
+
+}
+
+.topFooter {
+	width: 100%;
+	padding: 50px 10% 30px 10%;
+	background-color: #fafafa;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.social img {
+	margin-left: 10px;
+}
+
+.buttonFooter {
+	width: 100%;
+	padding: 50px 10% 30px 10%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+	background-color: #fafafa;
+}
+
+.buttonFooter ul li{
+	list-style: none;
+	font-size: 0.9em;
+	margin-top: 10px;
+}
+
+.primero {
+	font-weight: 600;
+}
+
+/*----------------------------------------------------------------------*/
+
+@media screen and (max-width: 860px) {
+	.textHeader {
+		width: 257px;
+	}
+
+	header img {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	header img {
+	top: 0px;
+	}
+
+	.preMain {
+		padding-top: 20px;
+	}
+
+	.preFooter {
+
+	}
+
+	.preFooter p {
+		width: 300px;
+	}
+
+}
+
+@media screen and (max-width: 860px) {
+	.textHeader {
+		width: 100%;
+		padding-top: 10px;
+	}
+}
+
+@media screen and (max-width: 749px) {
+	.button1 {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 596px) {
+	.links a {
+		display: block;
+		margin-top: 30px;
+	}
+
+	.tarjeta1 {
+		width: 140px;
+	}
+
+	.tarjeta2 {
+		width: 140px;
+	}
+
+	.tarjeta3 {
+		width: 140px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 514px) {
+	.preFooter {
+		justify-content: center;
+	}
+
+}
+
+@media screen and (max-width: 410px) {
+
+	.buttonFooter {
+		flex-direction: column;
+
+	}
+
+}
+
+@media screen and (max-width: 349px) {
+	.tarjeta1 {
+		width: 100%;
+	}
+
+	.tarjeta2 {
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.tarjeta3 {
+		width: 100%;
+		margin-top: 30px;
+
+	}
+
+}
+
+@media screen and (max-width: 328px) {
+	.button1 {
+		margin-top: 40px;
+	}
+
+	.textHeader h1 {
+		font-size: 1.5em;
+	}
+
+	.preMain p {
+		font-size: 1.9em;
+	}
+}
+
+@media screen and (max-width: 324px) {
+	.social{
+		margin-top: 20px;
+	}
+
+	.topFooter {
+		justify-content: center;
+	}
+}
